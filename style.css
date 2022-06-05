@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container-header {
+    width: 100%;
+    max-width: 1920px;
+   
+}
+
+.container-top{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+    padding: 0 30px;
+}
+.container-ul{
+    display: flex;
+    
+    /*espaço igual  justify-content: space-evenly;*/
+    justify-content: space-evenly;
+
+
+}
+.container_menu--list{
+    color: #808080;
+}
+.container_menu--list:hover{
+    color:#000;
+    font-weight: 900;
+}
+.container-menu{
+     width: 40%;
+     font-size: 2vw;
+
+}
+.container-centro{
+    position: relative;
+    width: 100%;
+}
+
+.container-centro img{
+    width: 100%;
+}
+.texto{
+    position: absolute;
+    top:35%;
+    left: 10%;
+    color:#fff;
+    font-size:3.5vw;
+}
+.btn-texto{
+    background: transparent;
+    color:#fff;
+    font-size: 2vw;
+    border: none; /*None é para tirar/ sumir alguma coisa.*/
+}
+/*Aqui Inicia a Main*/
+.main{
+    display: flex;
+    justify-content:center;
+
+
+}
+.caixa-imagem{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-evenly;
+   
+}
+.caixa{
+    margin: 8px;
+    width:23.5%;
+
+    
+}
+.imagem-main{
+    width: 100%;
+}
+/*Aqui começa o footer*/
+.rodape{
+    border: solid red;
+    width: 100%;
+    display: flex;
+    background-color: #00000029;
+    position: absolute;
+}
+.footer-rodape{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid yellowgreen;
+}
+.footer-copyright{
+    
+    width: 50%;
+    display: flex;
+    color:#000;
+    
+    
+}
+.rede-social{
+    border: solid red;
+    width: 50%;
+}
+/*.container-header{
+    width: 100%;
+    display:inline-block;
+    margin:  auto;
+    height: 100%;
+   
+}
+.container-menu{
+    width: 30%;
+    font-size: 25px;
+    border: solid red;
+    min-width: 400px;
+}
+.container-menu ul{
+    width: 100%;
+    
+}
+h1{
+    
+    border: solid red;
+}
+.container-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px ;
+    height: 30vh ;
+    max-height: 80px; 
+}
+
+.container-header ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size:  1em;
+    list-style: none;
+    border: solid gray;
+    width: 100%;
+}
+
+
+.container_header li{
+    width: 80%;
+    text-align: center;
+    border: solid red;
+}
+
+.container-centro img {
+    width: 100%;
+  
+}
+
+
+.texto{
+    top:25vh; 
+    position: absolute;
+    color:#fff;
+    text-align: center;
+    left: 20vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:2vw;
+    position: absolute;
+}
+
+.container-centro img{
+    border: solid red;
+    position: absolute;
+    
+    
+}
+.container-centro{
+    position: relative;
+    height:fit-content; 
+}
+
+.btn-texto {
+    position: absolute;
+    color:#fff;
+    display:flex;
+    align-items: center;
+    font-size:2vw;
+    left:0vw;
+    width: 294px;
+    top: 80px;
+    background-color: Transparent;
+    border: Transparent;
+   
+}
+.caixa-imagem{
+    width: 100%;
+	height: 70vh;
+    /* flex-wrap: wrap envelopar/ estou envolvendo a caixa que está as imagens, fazendo com que elas se ajustem dentro a caixa.
+    flex-wrap: wrap;
+    display:flex;
+    
+}
+.imagem-main{
+    width: 300px;
+	height: 200px;
+    /*Alterar tamanho das imagens
+    
+
+}
+.caixa{
+    display: inline-block;
+    margin-left:1vw
+}*/
